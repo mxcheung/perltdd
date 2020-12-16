@@ -7,3 +7,8 @@ perl test driven development
 - Write sample perl test script to unit test perl module Math.t
 - Use github and git bash to checkin sample code
 - Troubleshoot missing perl libraries and install via cpan
+
+# Troubleshoot
+[ec2-user@ip-172-31-44-23 t]$ perl Math.t
+Can't locate Test/More.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Math.t line 5.
+BEGIN failed--compilation aborted at Math.t line 5.
