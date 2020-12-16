@@ -39,5 +39,10 @@ perl test driven development
 Can't locate Test/More.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Math.t line 5.
 BEGIN failed--compilation aborted at Math.t line 5.
 
+# Install missing perl library
+https://metacpan.org/pod/Test::More  <== install instructions
+       perl -MCPAN -e shell
+       install Test::Simple
+                    
 ## Links
 https://metacpan.org/pod/Test::More
