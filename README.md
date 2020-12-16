@@ -10,7 +10,9 @@ perl test driven development
 
 # Step by Step
  - create a new repository in github
- -  chekout in ec2 instance  git clone  
+ -  checkout  in ec2 instance  
+       git clone  https://github.com/mxcheung/perltdd.git
+       
 
 
 # Troubleshoot
