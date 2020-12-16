@@ -12,6 +12,11 @@ perl test driven development
  - create a new repository in github
  -  checkout  in ec2 instance  
        git clone  https://github.com/mxcheung/perltdd.git
+ - create lib and t folders
+    [ec2-user@ip-172-31-44-23 perltdd]$ ls
+    README.md
+    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir lib
+    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir t
        
 
 
