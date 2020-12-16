@@ -41,8 +41,10 @@ BEGIN failed--compilation aborted at Math.t line 5.
 
 # Install missing perl library
 https://metacpan.org/pod/Test::More  <== install instructions
-       perl -MCPAN -e shell
-       install Test::Simple
+     
+     perl -MCPAN -e shell
+     
+     install Test::Simple
                     
 ## Links
 https://metacpan.org/pod/Test::More
