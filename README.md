@@ -9,7 +9,8 @@ perl test driven development
 - Troubleshoot missing perl libraries and install via cpan
 
 # Step by Step
-
+ - create a new repository in github
+ -  chekout in ec2 instance  git clone  
 
 
 # Troubleshoot
