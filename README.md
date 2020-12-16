@@ -21,7 +21,12 @@ perl test driven development
     
     [ec2-user@ip-172-31-44-23 perltdd]$ mkdir t
        
-
+  - Copy sample code
+     
+      https://github.com/mxcheung/prove/blob/master/lib/Math.pm
+      
+      https://github.com/mxcheung/prove/blob/master/t/lib/Math.t
+      
 
 # Troubleshoot
 [ec2-user@ip-172-31-44-23 t]$ perl Math.t
