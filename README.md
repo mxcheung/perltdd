@@ -17,9 +17,9 @@ perl test driven development
     
     README.md
     
-    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir lib
+    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir -p lib
     
-    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir t
+    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir -p t/lib
        
   - Copy sample code
      
@@ -45,6 +45,16 @@ https://metacpan.org/pod/Test::More  <== install instructions
      perl -MCPAN -e shell
      
      install Test::Simple
-                    
+
+/home/ec2-user/tdd/mc/perltdd/t/lib
+
+[ec2-user@ip-172-31-44-23 lib]$ perl Math.t
+
+ok 1
+
+ok 2
+# Tests were run but no plan was declared and done_testing() was not seen.
+
+
 ## Links
 https://metacpan.org/pod/Test::More
