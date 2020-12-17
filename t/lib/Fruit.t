@@ -25,9 +25,10 @@ sub test_object_creation {
 
 sub test_attributes {
    note('Test attributes');
+   my ($actual, $exp);
    my $obj = Fruit->new( 'name' => 'apple', 'color' => 'red' );
-   my $actual = $obj->get_color();
-   my $exp = 'red';
+   $actual = $obj->get_color();
+   $exp = 'red';
    is( $actual, $exp, 'Test Fruit colour');
    $actual = $obj->get_name();
    $exp = 'apple';
