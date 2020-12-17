@@ -31,3 +31,21 @@ use warnings;
     };   
 
 1;
+
+__END__
+
+=head1 NAME
+
+Fruit.pm - Define Fruit Object - Getters and Setters
+
+=head1 SYNOPSIS
+
+Fruit has name, colour and taste
+
+=head1 DESCRIPTION
+
+Define attributes for Fruit using test driven development
+
+=cut
+
+
