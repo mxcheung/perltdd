@@ -17,9 +17,9 @@ perl test driven development
     
     README.md
     
-    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir lib
+    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir -p lib
     
-    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir t
+    [ec2-user@ip-172-31-44-23 perltdd]$ mkdir -p t/lib
        
   - Copy sample code
      
