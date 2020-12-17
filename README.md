@@ -45,6 +45,12 @@ https://metacpan.org/pod/Test::More  <== install instructions
      perl -MCPAN -e shell
      
      install Test::Simple
-                    
+
+[ec2-user@ip-172-31-44-23 lib]$ perl Math.t
+ok 1
+ok 2
+# Tests were run but no plan was declared and done_testing() was not seen.
+
+
 ## Links
 https://metacpan.org/pod/Test::More
