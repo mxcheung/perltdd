@@ -53,7 +53,8 @@ https://metacpan.org/pod/Test::More  <== install instructions
 ok 1
 
 ok 2
-# Tests were run but no plan was declared and done_testing() was not seen.
+
+Tests were run but no plan was declared and done_testing() was not seen.
 
 # pod2html
 pod2html Fruit.pm > /var/www/html/perl/lib/Fruit.html
