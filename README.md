@@ -46,8 +46,12 @@ https://metacpan.org/pod/Test::More  <== install instructions
      
      install Test::Simple
 
+/home/ec2-user/tdd/mc/perltdd/t/lib
+
 [ec2-user@ip-172-31-44-23 lib]$ perl Math.t
+
 ok 1
+
 ok 2
 # Tests were run but no plan was declared and done_testing() was not seen.
 
