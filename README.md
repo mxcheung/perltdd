@@ -63,7 +63,7 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/lib/Fruit.htm
 
 # perl cgi
 
-{code}
+```
   [ec2-user@ip-172-31-44-23 cgi]$ ls -ltr
   total 28
   -rwxrwxrwx 1 ec2-user ec2-user 778 Dec 18 06:58 movie.cgi
@@ -75,7 +75,7 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/lib/Fruit.htm
   -rwxr-xr-x 1 ec2-user ec2-user 468 Dec 18 10:28 simple.cgi
   [ec2-user@ip-172-31-44-23 cgi]$ pwd
   /var/www/cgi-bin/cgi
-{code}
+```
 
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/env.cgi
 
