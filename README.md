@@ -63,5 +63,9 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/lib/Fruit.htm
 
 ## Links
 https://metacpan.org/pod/Test::More
+
 https://perlmaven.com/pod-plain-old-documentation-of-perl
+
 https://medium.com/@KerrySheldon/ec2-exercise-1-1-host-a-static-webpage-9732b91c78ef
+
+http://perltraining.com.au/notes/perlcgi.pdf
