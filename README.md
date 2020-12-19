@@ -83,6 +83,11 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/simple
 
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/list-names.cgi
 
+## Perl Web form
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/html/mysport.html
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/mysport.cgi
 
 
 ## Links
@@ -93,3 +98,5 @@ https://perlmaven.com/pod-plain-old-documentation-of-perl
 https://medium.com/@KerrySheldon/ec2-exercise-1-1-host-a-static-webpage-9732b91c78ef
 
 http://perltraining.com.au/notes/perlcgi.pdf
+
+https://www.geeksforgeeks.org/perl-cgi-programming/
