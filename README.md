@@ -58,9 +58,45 @@ Tests were run but no plan was declared and done_testing() was not seen.
 
 # pod2html
 pod2html Fruit.pm > /var/www/html/perl/lib/Fruit.html
+
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/lib/Fruit.html
+
+# perl cgi
+
+```
+  [ec2-user@ip-172-31-44-23 cgi]$ ls -ltr
+  total 28
+  -rwxrwxrwx 1 ec2-user ec2-user 778 Dec 18 06:58 movie.cgi
+  -rwxr-xr-x 1 ec2-user ec2-user 170 Dec 18 07:28 hello.cgi
+  -rwxr-xr-x 1 ec2-user ec2-user 170 Dec 18 07:29 env.cgi
+  -rwxr-xr-x 1 ec2-user ec2-user  90 Dec 18 09:38 test.cgi
+  -rwxr-xr-x 1 ec2-user ec2-user 293 Dec 18 09:47 perl-cgi-form.cgi
+  -rwxr-xr-x 1 ec2-user ec2-user 247 Dec 18 10:21 list-names.cgi
+  -rwxr-xr-x 1 ec2-user ec2-user 468 Dec 18 10:28 simple.cgi
+  [ec2-user@ip-172-31-44-23 cgi]$ pwd
+  /var/www/cgi-bin/cgi
+```
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/env.cgi
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/simple.cgi
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/list-names.cgi
+
+## Perl Web form
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/html/mysport.html
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/mysport.cgi
+
 
 ## Links
 https://metacpan.org/pod/Test::More
+
 https://perlmaven.com/pod-plain-old-documentation-of-perl
+
 https://medium.com/@KerrySheldon/ec2-exercise-1-1-host-a-static-webpage-9732b91c78ef
+
+http://perltraining.com.au/notes/perlcgi.pdf
+
+https://www.geeksforgeeks.org/perl-cgi-programming/
