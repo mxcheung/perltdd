@@ -91,6 +91,8 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/myspor
 
 ## Dynamic DNS
 
+http://aws20201219.ddns.net/perl/html/myfruit.html
+
 http://aws20201219.ddns.net/cgi-bin/cgi/myfruit.cgi
 
  ssh -i "cheungm-mqtt.pem" ec2-user@aws20201219.ddns.net
