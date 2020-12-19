@@ -1,0 +1,40 @@
+<html> 
+<head> 
+	<title>Fruit Test Example Form</title> 
+</head> 
+<body> 
+	<h1>CGI-Example Fruit  Form</h1> 
+	<h3><p>Information Required.</p></h3> 
+	<form action="/cgi-bin/cgi/myfruit.cgi" method="Post"> 
+	<table> 
+		<tr> 
+		<td>Name:</td> 
+		<td><input type="text" name="name"><td> 
+		</tr> 
+		<tr> 
+		<td>Colour:</td> 
+		<td><select name="colour" size="1"> 
+			<option>Red</option> 
+			<option>Green</option> 
+			<option>Bluer</option> 
+		</select></td> 
+		</tr> 
+		<tr> 
+		<td>Taste:</td> 
+			<td><input type="checkbox" name="taste"
+					value="Sweet">Sweet 
+				<input type="checkbox" name="taste"
+					value="Spicy">Spicy 
+				<input type="checkbox" name="taste"
+					value="Salty">Salty 
+				<input type="checkbox" name="taste"
+					value="Bitter">Bitter</td> 
+		</tr> 
+		<tr> 
+		<td colspan="2"><input type="submit"></td> 
+		</tr> 
+	</table> 
+	</form> 
+</body> 
+</html>					 
+
