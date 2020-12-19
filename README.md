@@ -89,6 +89,10 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/html/mysport.
 
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/mysport.cgi
 
+## Dynamic DNS
+
+http://aws20201219.ddns.net/cgi-bin/cgi/myfruit.cgi
+
 
 ## Links
 https://metacpan.org/pod/Test::More
@@ -100,3 +104,5 @@ https://medium.com/@KerrySheldon/ec2-exercise-1-1-host-a-static-webpage-9732b91c
 http://perltraining.com.au/notes/perlcgi.pdf
 
 https://www.geeksforgeeks.org/perl-cgi-programming/
+
+https://my.noip.com/#!/dynamic-dns
