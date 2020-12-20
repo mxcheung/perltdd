@@ -89,6 +89,21 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/perl/html/mysport.
 
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com/cgi-bin/cgi/mysport.cgi
 
+## Dynamic DNS
+
+http://aws20201219.ddns.net/perl/html/myfruit.html
+
+http://aws20201219.ddns.net/cgi-bin/cgi/myfruit.cgi
+
+ ssh -i "cheungm-mqtt.pem" ec2-user@aws20201219.ddns.net
+
+ ssh -i "cheungm-mqtt.pem" ec2-user@ec2-3-25-127-73.ap-southeast-2.compute.amazonaws.com
+
+## Perl email
+
+https://ap-southeast-2.console.aws.amazon.com/ses/home?region=ap-southeast-2#smtp-settings
+
+https://gist.githubusercontent.com/jeffjohnson9046/3488642c7fa8d4083386e1e69b5526d2/raw/9fde606358fbe21dd1e0c5381acd495bde5cff96/aws-email-sender.pl
 
 ## Links
 https://metacpan.org/pod/Test::More
@@ -100,3 +115,5 @@ https://medium.com/@KerrySheldon/ec2-exercise-1-1-host-a-static-webpage-9732b91c
 http://perltraining.com.au/notes/perlcgi.pdf
 
 https://www.geeksforgeeks.org/perl-cgi-programming/
+
+https://my.noip.com/#!/dynamic-dns
