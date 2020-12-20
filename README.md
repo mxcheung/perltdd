@@ -117,3 +117,5 @@ http://perltraining.com.au/notes/perlcgi.pdf
 https://www.geeksforgeeks.org/perl-cgi-programming/
 
 https://my.noip.com/#!/dynamic-dns
+
+https://metacpan.org/pod/Amazon::SNS
