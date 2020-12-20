@@ -99,6 +99,11 @@ http://aws20201219.ddns.net/cgi-bin/cgi/myfruit.cgi
 
  ssh -i "cheungm-mqtt.pem" ec2-user@ec2-3-25-127-73.ap-southeast-2.compute.amazonaws.com
 
+## Perl email
+
+https://ap-southeast-2.console.aws.amazon.com/ses/home?region=ap-southeast-2#smtp-settings
+
+https://gist.githubusercontent.com/jeffjohnson9046/3488642c7fa8d4083386e1e69b5526d2/raw/9fde606358fbe21dd1e0c5381acd495bde5cff96/aws-email-sender.pl
 
 ## Links
 https://metacpan.org/pod/Test::More
