@@ -97,7 +97,7 @@ http://aws20201219.ddns.net/cgi-bin/cgi/myfruit.cgi
 
  ssh -i "cheungm-mqtt.pem" ec2-user@aws20201219.ddns.net
 
- ssh -i "cheungm-mqtt.pem" ec2-user@ec2-3-25-127-73.ap-southeast-2.compute.amazonaws.com
+  ssh -i "cheungm-mqtt.pem" ec2-user@ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com
 
 ## Perl email
 
