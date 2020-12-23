@@ -111,6 +111,21 @@ psql --host=cheungm-postgres.c9biwtr4pgjt.ap-southeast-2.rds.amazonaws.com --por
 
 https://www.guru99.com/postgresql-create-database.html
 
+[ec2-user@ip-172-31-44-23 scripts]$ psql --host=cheungm-postgres.c9biwtr4pgjt.ap-southeast-2.rds.amazonaws.com --port=5432 --username=postgres --password --dbname=postgres
+Password:
+psql (12.5, server 12.4)
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+postgres=> CREATE DATABASE guru99;
+CREATE DATABASE
+postgres=>
+postgres=> CREATE DATABASE testdb;
+CREATE DATABASE
+postgres=>
+
+
+
 ## Links
 https://metacpan.org/pod/Test::More
 
