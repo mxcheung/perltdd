@@ -97,13 +97,37 @@ http://aws20201219.ddns.net/cgi-bin/cgi/myfruit.cgi
 
  ssh -i "cheungm-mqtt.pem" ec2-user@aws20201219.ddns.net
 
- ssh -i "cheungm-mqtt.pem" ec2-user@ec2-3-25-127-73.ap-southeast-2.compute.amazonaws.com
+  ssh -i "cheungm-mqtt.pem" ec2-user@ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com
 
 ## Perl email
 
 https://ap-southeast-2.console.aws.amazon.com/ses/home?region=ap-southeast-2#smtp-settings
 
 https://gist.githubusercontent.com/jeffjohnson9046/3488642c7fa8d4083386e1e69b5526d2/raw/9fde606358fbe21dd1e0c5381acd495bde5cff96/aws-email-sender.pl
+
+## Perl Postgres
+
+psql --host=cheungm-postgres.c9biwtr4pgjt.ap-southeast-2.rds.amazonaws.com --port=5432 --username=postgres --password --dbname=postgres
+
+https://www.guru99.com/postgresql-create-database.html
+
+[ec2-user@ip-172-31-44-23 scripts]$ psql --host=cheungm-postgres.c9biwtr4pgjt.ap-southeast-2.rds.amazonaws.com --port=5432 --username=postgres --password --dbname=postgres
+Password:
+
+psql (12.5, server 12.4)
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+postgres=> CREATE DATABASE guru99;
+CREATE DATABASE
+
+postgres=>
+
+postgres=> CREATE DATABASE testdb;
+CREATE DATABASE
+postgres=>
+
+
 
 ## Links
 https://metacpan.org/pod/Test::More
@@ -117,3 +141,8 @@ http://perltraining.com.au/notes/perlcgi.pdf
 https://www.geeksforgeeks.org/perl-cgi-programming/
 
 https://my.noip.com/#!/dynamic-dns
+
+https://metacpan.org/pod/Amazon::SNS
+
+https://www.guru99.com/postgresql-create-database.html
+
