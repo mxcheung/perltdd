@@ -128,6 +128,23 @@ CREATE DATABASE
 postgres=>
 
 
+## Environment Variables
+
+[ec2-user@ip-172-31-44-23 perltdd]$ vi ~/.bashrc
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+export AWS_ACCESS_KEY=AKIA5Lxxxxxxxxxxxxxxxxxx;
+export AWS_SECRET_ACCESS_KEY=odtnRZL7zzzzzzzzzzzzzzzzzzzzzzzzz;
+export AWS_TOPIC_ARN=arn:aws:sns:ap-southeast-2:99999999999999:perlsns;
+export AWS_SNS_SERVICE_URL=http://sns.ap-southeast-2.amazonaws.com;
+export AWS_POSTGRES_HOST=cheungmxxxxxxxxxxxxx-postgres-2.c9bxxxxxxxxxxxxxjt.ap-southeast-2.rds.amazonaws.com;
+export AWS_POSTGRES_PORT=5432;
+export AWS_POSTGRES_USERID=postgres;
+export AWS_POSTGRES_PASSWORD=xxxxxxxxxxxxxxxxxx;
+export AWS_POSTGRES_DATABASE=testdb;
+
+
 
 ## Links
 https://metacpan.org/pod/Test::More
