@@ -105,6 +105,12 @@ https://ap-southeast-2.console.aws.amazon.com/ses/home?region=ap-southeast-2#smt
 
 https://gist.githubusercontent.com/jeffjohnson9046/3488642c7fa8d4083386e1e69b5526d2/raw/9fde606358fbe21dd1e0c5381acd495bde5cff96/aws-email-sender.pl
 
+## Perl Postgres
+
+psql --host=cheungm-postgres.c9biwtr4pgjt.ap-southeast-2.rds.amazonaws.com --port=5432 --username=postgres --password --dbname=postgres
+
+https://www.guru99.com/postgresql-create-database.html
+
 ## Links
 https://metacpan.org/pod/Test::More
 
@@ -119,3 +125,6 @@ https://www.geeksforgeeks.org/perl-cgi-programming/
 https://my.noip.com/#!/dynamic-dns
 
 https://metacpan.org/pod/Amazon::SNS
+
+https://www.guru99.com/postgresql-create-database.html
+
