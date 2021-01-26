@@ -35,11 +35,11 @@ sub get_color {
      return  $self->{'color'};
 };   
     
-    sub send_message {
-       my $awsAccessKey =  $ENV{'AWS_ACCESS_KEY'};
-       my $awsSecretAccessKey =  $ENV{'AWS_SECRET_ACCESS_KEY'};
-       my $awsTopicARN =  $ENV{'AWS_TOPIC_ARN'};
-       my $awsSNSServiceURL =  $ENV{'AWS_SNS_SERVICE_URL'};
+sub send_message {
+    my $awsAccessKey =  $ENV{'AWS_ACCESS_KEY'};
+    my $awsSecretAccessKey =  $ENV{'AWS_SECRET_ACCESS_KEY'};
+    my $awsTopicARN =  $ENV{'AWS_TOPIC_ARN'};
+    my $awsSNSServiceURL =  $ENV{'AWS_SNS_SERVICE_URL'};
 
 
        # Get/set SNS service url, something like 'http://sns.us-east-1.amazonaws.com'.
@@ -51,8 +51,8 @@ sub get_color {
 
        # publish to a known ARN
 
-
-    };
+    return 1;
+};
 1;
 
 __END__
