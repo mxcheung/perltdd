@@ -45,6 +45,10 @@ sub test_getters_and_setters {
    $actual = $obj->get_color();
    $exp = 'blue';
    is( $actual, $exp, 'Test Fruit colour');
+   $obj->set_name('banana');
+   $actual = $obj->get_name();
+   $exp = 'banana';
+   is( $actual, $exp, 'Test Fruit name');
 }
 
 done_testing();
