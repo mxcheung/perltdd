@@ -14,6 +14,7 @@ main();
 sub main {
     test_object_creation();
     test_attributes();
+    test_getters_and_setters();
 }
 
 sub test_object_creation {
@@ -35,5 +36,16 @@ sub test_attributes {
    is( $actual, $exp, 'Test Fruit name');
    #print Dumper($actual);
 }
+
+sub test_getters_and_setters {
+   note('Test getters and setters');
+   my ($actual, $exp);
+   my $obj = Fruit->new( 'name' => 'apple', 'color' => 'red' );
+   $obj->set_color('blue)
+   $actual = $obj->get_color();
+   $exp = 'blue';
+   is( $actual, $exp, 'Test Fruit colour');
+}
+
 
 done_testing();
