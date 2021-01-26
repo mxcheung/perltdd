@@ -1,37 +1,39 @@
 package Fruit;
 use strict;
 use warnings;
-use Amazon::SNS;
 
-    sub new {
-        my ( $class, %args ) = @_;
-        my $self = \%args;
+our $VERSION = '1.05';
 
-        send_message();
-        bless $self, $class;
-    };
+sub new {
+     my ( $class, %args ) = @_;
+     my $self = \%args;
 
-    sub set_name {
+     send_message();
+     bless $self, $class;
+     return $self;
+ };
 
-        my $self = shift;
-        $self->{'name'} = shift;
-    };
+sub set_name {
 
-    sub get_name {
-        my $self = shift;
-        $self->{'name'};
-    };
+    my $self = shift;
+    return  $self->{'name'} = shift;
+};
+
+sub get_name {
+    my $self = shift;
+    return $self->{'name'};
+};
     
-    sub set_color {
+sub set_color {
     
-        my $self = shift;
-        $self->{'color'} = shift;
-    };
+     my $self = shift;
+     return  $self->{'color'} = shift;
+};
 
-    sub get_color {
-        my $self = shift;
-        $self->{'color'};
-    };   
+sub get_color {
+     my $self = shift;
+     return  $self->{'color'};
+};   
     
     sub send_message {
        my $awsAccessKey =  $ENV{'AWS_ACCESS_KEY'};
@@ -39,19 +41,16 @@ use Amazon::SNS;
        my $awsTopicARN =  $ENV{'AWS_TOPIC_ARN'};
        my $awsSNSServiceURL =  $ENV{'AWS_SNS_SERVICE_URL'};
 
-       my $sns = Amazon::SNS->new({ 'key' => $awsAccessKey, 'secret' => $awsSecretAccessKey });
 
        # Get/set SNS service url, something like 'http://sns.us-east-1.amazonaws.com'.
-       $sns->service($awsSNSServiceURL);
+       #       $sns->service($awsSNSServiceURL);
 
 
        # create a new topic and publish
 #       my $topic = $sns->CreateTopic('perlsns')  or die $sns->error;
 
        # publish to a known ARN
-        my $topic = $sns->GetTopic($awsTopicARN);
 
-        $topic->Publish('My test message 11:11:08', 'My Perl Subject');
 
     };
 1;
@@ -62,6 +61,10 @@ __END__
 
 Fruit.pm - Define Fruit Object - Getters and Setters
 
+=head1 VERSION
+
+1.0.5
+
 =head1 SYNOPSIS
 
 Fruit has name, colour and taste
@@ -69,6 +72,26 @@ Fruit has name, colour and taste
 =head1 DESCRIPTION
 
 Define attributes for Fruit using test driven development
+
+=head1 SUBROUTINES/METHODS
+
+=head1 DIAGNOSTICS
+
+=head1 CONFIGURATION AND ENVIRONMENT
+
+=head1 DEPENDENCIES
+
+None
+
+=head1 INCOMPATIBILITIES
+
+=head1 BUGS AND LIMITATIONS
+
+=head1 AUTHOR
+
+Max Cheung
+
+=head1 LICENSE AND COPYRIGHT
 
 =cut
 
