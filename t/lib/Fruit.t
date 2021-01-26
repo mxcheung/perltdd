@@ -41,11 +41,10 @@ sub test_getters_and_setters {
    note('Test getters and setters');
    my ($actual, $exp);
    my $obj = Fruit->new( 'name' => 'apple', 'color' => 'red' );
-   $obj->set_color('blue)
+   $obj->set_color('blue');
    $actual = $obj->get_color();
    $exp = 'blue';
    is( $actual, $exp, 'Test Fruit colour');
 }
-
 
 done_testing();
